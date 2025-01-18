@@ -18,6 +18,8 @@ DEVICE_PATH := device/samsung/gts7fewifi
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
+TARGET_IS_TABLET := true
+
 # call the common setup
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
 
