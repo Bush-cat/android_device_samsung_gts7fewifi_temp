@@ -24,6 +24,10 @@ $(call inherit-product, device/samsung/sm7325-common/common.mk)
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 
+# Display
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.primary_display_orientation=ORIENTATION_90
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7fewifi.rc
