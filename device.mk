@@ -30,6 +30,11 @@ $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.primary_display_orientation=ORIENTATION_90
 
+# Change default boot orientation
+#  Id at the end corresponds to the display id on the device.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.bootanim.set_orientation_4630947232161729154=ORIENTATION_90
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7fewifi.rc
