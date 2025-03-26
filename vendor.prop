@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Galaxy A73 5G
+bluetooth.device.default_name=Galaxy Tab S7 FE
 
 # Fingerprint
 ro.vendor.fingerprint.type=udfps_optical

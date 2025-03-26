@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a73xq/device.mk)
+$(call inherit-product, device/samsung/gts7fewifi/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -35,16 +35,16 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a73xq
-PRODUCT_DEVICE := a73xq
+PRODUCT_NAME := lineage_gts7fewifi
+PRODUCT_DEVICE := gts7fewifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A736B
+PRODUCT_MODEL := SM-T733
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Vendor fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint="samsung/a73xqxx/a73xq:11/RP1A.200720.012/A736BXXUAEXK4:user/release-keys" \
-    BuildDesc="a73xqxx-user 11 RP1A.200720.012 A736BXXUAEXK4 release-keys"
+    BuildFingerprint="samsung/gts7fewifixx/gts7fewifi:11/RP1A.200720.012/T733XXS8DXJ1:user/release-keys" \
+    BuildDesc="gts7fewifixx-user 11 RP1A.200720.012 T733XXS8DXJ1 release-keys"

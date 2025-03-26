@@ -275,16 +275,16 @@ vendor/etc/sensors/config/kodiak_icm4x6xx_0.json
 vendor/etc/sensors/config/kodiak_stk3a0x_0.json
 
 # Touchscreen firmware
-vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_boe.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_csot.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc_4th.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc.bin
 
 # Touchscreen firmware (recovery)
-vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin
-vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_boe.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_gts7fewifi_boe.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_csot.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_gts7fewifi_csot.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc_4th.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc_4th.bin
+vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_gts7fewifi_sdc.bin
 
 # Wifi firmware (bootloader revision 2) - from A736BXXU2BVK2 (T)
 vendor/firmware/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
