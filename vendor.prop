@@ -3,3 +3,7 @@ bluetooth.device.default_name=Galaxy Tab S7 FE
 
 # Keymaster
 ro.hardware.keystore_desede=true
+
+# Wifi-only
+ro.radio.noril=yes
+ro.carrier=wifi-only
