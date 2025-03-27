@@ -29,34 +29,9 @@
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="13"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" acdb_id="13"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER_EVS" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_CALL_DEX_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_CALL_DEX_SPEAKER_EVS" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_EVS" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_DEX_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_DEX_SPEAKER_EVS" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_COMM_DEX_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_COMM_TV_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_FMC_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_FMC_DEX_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_VOIP_GAMING_SPEAKER" acdb_id="13"/>
+        <device name="SND_DEVICE_OUT_VOIP_COMM_TV_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_FM_SPEAKER" acdb_id="13"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER_EX" acdb_id="75"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER_EX_EVS" acdb_id="75"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_EX" acdb_id="75"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_EX_EVS" acdb_id="75"/>
         <device name="SND_DEVICE_IN_USB_MIC_REMOTEMIC" acdb_id="511"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER_MON" acdb_id="66"/>
-        <device name="SND_DEVICE_OUT_CALL_SPEAKER_MON_EVS" acdb_id="66"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_MON" acdb_id="66"/>
-        <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_MON_EVS" acdb_id="66"/>
-        <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER_MON" acdb_id="66"/>
-        <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER_MON_ALL" acdb_id="69"/>
-        <device name="SND_DEVICE_IN_REC_MAIN_MIC" acdb_id="153"/>
-        <device name="SND_DEVICE_IN_VR_MAIN_MIC" acdb_id="164"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HANDSET" interface="QUAT_TDM_RX_0"/>
@@ -112,5 +87,9 @@
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" interface="QUAT_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_SPEAKER_VBAT" backend="speaker" interface="QUAT_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED_VBAT" interface="QUAT_TDM_RX_0"/>
+
+       <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" interface="QUAT_TDM_TX_0"/>
+
+        <device name="SND_DEVICE_IN_CAPTURE_FM" backend="capture-fm" interface="SLIMBUS_8_TX"/>
     </backend_names>
 </audio_platform_info>
