@@ -1,11 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=Galaxy Tab S7 FE
 
-# Fingerprint
-ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=540|2170|114
-ro.vendor.fingerprint.request_touch_event=true
-
 # Keymaster
 ro.hardware.keystore_desede=true
 
