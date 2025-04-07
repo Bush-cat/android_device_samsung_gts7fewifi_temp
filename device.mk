@@ -42,10 +42,3 @@ PRODUCT_COPY_FILES += \
 # Samsung IDC files
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
-
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
-PRODUCT_PACKAGES += \
-    sensors.gts7fewifi
